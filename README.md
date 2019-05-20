@@ -9,4 +9,6 @@ Instead of just httracking the site and doing your web perf magic to it on your 
 
 In other words, a mirror slash randomizer. A smart one that attempts to generate mock images that are not just the same dimensions as those it replaces but the same compression levels and maybe somehow random images of similar compression difficulty. Doing this manually takes too damn long. 
 
-That's the gist, it's something that would have saved me a lot of time, I'd like to cobble something like this together, and here's my starting point. I don't know whether to fork httrack or fork some ipsum/lorem generator, this feels like a project that would incorporate a handful of existing open projects, not much that's original other than combining their functions. 
+That's the gist, it's something that would have saved me a lot of time, I'd like to cobble something like this together, and here's my starting point. I don't know whether to fork httrack or fork some ipsum/lorem generator, this feels like a project that would incorporate a handful of existing open projects, not much that's original other than combining their functions.
+
+Existing projects that come to mind, httrack of course, also ImageMagick, text randomizers. Related projects, ngx_pagespeed and some Golang HTTP2+SPDY server with NGINX as a reverse proxy. The rest could be stitched together with some duct tape in the form of bash and python. 
